@@ -1,0 +1,9 @@
+Passenger
+belongs_to taxi
+
+Ride
+belongs_to taxi
+belongs_to passenger
+
+Taxi
+has_many passengers, through rides
